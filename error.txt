@@ -1,0 +1,16 @@
+﻿mingw32-make: Entering directory 'C:/Users/hp/Downloads/GG/build'
+[ 50%] Built target glfw
+[ 68%] Built target raylib
+[ 70%] Building CXX object CMakeFiles/COD_FPS.dir/src/main.cpp.obj
+C:\msys64\mingw64\bin\mingw32-make.exe : mingw32-make[2]: *** [CMakeFiles\COD_FPS.dir\build.make:79: 
+CMakeFiles/COD_FPS.dir/src/main.cpp.obj] Error 1
+At line:1 char:1
++ C:\msys64\mingw64\bin\mingw32-make.exe -C build 2>&1 | Out-String | S ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (mingw32-make[2]...pp.obj] Error 1:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+mingw32-make[1]: *** [CMakeFiles\Makefile2:171: CMakeFiles/COD_FPS.dir/all] Error 2
+mingw32-make: *** [Makefile:155: all] Error 2
+mingw32-make: Leaving directory 'C:/Users/hp/Downloads/GG/build'
+
