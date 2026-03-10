@@ -1,0 +1,289 @@
+C:\Users\hp\Downloads\GG\src\main.cpp: In function 'void DrawDetailedWeapon(const GameState&)':
+C:\Users\hp\Downloads\GG\src\main.cpp:1035:8: error: jump to case label
+ 1035 |   case 3: { // M249 LMG
+      |        ^
+C:\Users\hp\Downloads\GG\src\main.cpp:1027:13: note:   crosses initialization of 'Vector3 bipodR'
+ 1027 |     Vector3 bipodR = Vector3Add(bipodBase, Vector3Scale(camRight, 0.05f));
+      |             ^~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1025:13: note:   crosses initialization of 'Vector3 bipodL'
+ 1025 |     Vector3 bipodL = Vector3Add(bipodBase, Vector3Scale(camRight, -0.05f));
+      |             ^~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1023:13: note:   crosses initialization of 'Vector3 bipodBase'
+ 1023 |     Vector3 bipodBase = Vector3Add(weaponPos, Vector3Scale(camFwd, 0.15f));
+      |             ^~~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1019:13: note:   crosses initialization of 'Vector3 ring2'
+ 1019 |     Vector3 ring2 = Vector3Add(scopeStart, Vector3Scale(camFwd, 0.11f));
+      |             ^~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1016:13: note:   crosses initialization of 'Vector3 ring1'
+ 1016 |     Vector3 ring1 = Vector3Add(scopeStart, Vector3Scale(camFwd, 0.03f));
+      |             ^~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1013:13: note:   crosses initialization of 'Vector3 lensBack'
+ 1013 |     Vector3 lensBack = Vector3Add(scopeStart, Vector3Scale(camFwd, -0.01f));
+      |             ^~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1011:13: note:   crosses initialization of 'Vector3 eyeStart'
+ 1011 |     Vector3 eyeStart = Vector3Add(scopeStart, Vector3Scale(camFwd, -0.02f));
+      |             ^~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1008:13: note:   crosses initialization of 'Vector3 lensFront'
+ 1008 |     Vector3 lensFront = Vector3Add(scopeEnd, Vector3Scale(camFwd, 0.01f));
+      |             ^~~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1005:13: note:   crosses initialization of 'Vector3 bellEnd'
+ 1005 |     Vector3 bellEnd = Vector3Add(scopeEnd, Vector3Scale(camFwd, 0.02f));
+      |             ^~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1002:13: note:   crosses initialization of 'Vector3 scopeEnd'
+ 1002 |     Vector3 scopeEnd = Vector3Add(scopeStart, Vector3Scale(camFwd, 0.16f));
+      |             ^~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1000:13: note:   crosses initialization of 'Vector3 scopeStart'
+ 1000 |     Vector3 scopeStart = Vector3Add(receiverPos, Vector3Scale(camUp, 0.045f));
+      |             ^~~~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:996:13: note:   crosses initialization of 'Vector3 stockEnd'
+  996 |     Vector3 stockEnd = Vector3Add(weaponPos, Vector3Scale(camFwd, -0.38f));
+      |             ^~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:995:13: note:   crosses initialization of 'Vector3 stockStart'
+  995 |     Vector3 stockStart = Vector3Add(weaponPos, Vector3Scale(camFwd, -0.22f));
+      |             ^~~~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:992:13: note:   crosses initialization of 'Vector3 magPos'
+  992 |     Vector3 magPos = Vector3Add(lowerPos, Vector3Scale(camUp, -0.045f));
+      |             ^~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:989:13: note:   crosses initialization of 'Vector3 lowerPos'
+  989 |     Vector3 lowerPos = Vector3Add(receiverPos, Vector3Scale(camUp, -0.042f));
+      |             ^~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:985:13: note:   crosses initialization of 'Vector3 receiverPos'
+  985 |     Vector3 receiverPos = Vector3Add(weaponPos, Vector3Scale(camFwd, -0.08f));
+      |             ^~~~~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:976:13: note:   crosses initialization of 'Vector3 brakeEnd2'
+  976 |     Vector3 brakeEnd2 = Vector3Add(brakeStart, Vector3Scale(camFwd, 0.05f));
+      |             ^~~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:975:13: note:   crosses initialization of 'Vector3 brakeStart'
+  975 |     Vector3 brakeStart = barrelEnd;
+      |             ^~~~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:972:13: note:   crosses initialization of 'Vector3 barrelEnd'
+  972 |     Vector3 barrelEnd = Vector3Add(weaponPos, Vector3Scale(camFwd, 0.4f));
+      |             ^~~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:969:11: note:   crosses initialization of 'Color scope'
+  969 |     Color scope = {25, 25, 30, 255};
+      |           ^~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:968:11: note:   crosses initialization of 'Color metal'
+  968 |     Color metal = {50, 50, 55, 255};
+      |           ^~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:967:11: note:   crosses initialization of 'Color darkGreen'
+  967 |     Color darkGreen = {35, 40, 35, 255};
+      |           ^~~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1059:8: error: jump to case label
+ 1059 |   case 4: { // RPG-7
+      |        ^
+C:\Users\hp\Downloads\GG\src\main.cpp:1027:13: note:   crosses initialization of 'Vector3 bipodR'
+ 1027 |     Vector3 bipodR = Vector3Add(bipodBase, Vector3Scale(camRight, 0.05f));
+      |             ^~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1025:13: note:   crosses initialization of 'Vector3 bipodL'
+ 1025 |     Vector3 bipodL = Vector3Add(bipodBase, Vector3Scale(camRight, -0.05f));
+      |             ^~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1023:13: note:   crosses initialization of 'Vector3 bipodBase'
+ 1023 |     Vector3 bipodBase = Vector3Add(weaponPos, Vector3Scale(camFwd, 0.15f));
+      |             ^~~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1019:13: note:   crosses initialization of 'Vector3 ring2'
+ 1019 |     Vector3 ring2 = Vector3Add(scopeStart, Vector3Scale(camFwd, 0.11f));
+      |             ^~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1016:13: note:   crosses initialization of 'Vector3 ring1'
+ 1016 |     Vector3 ring1 = Vector3Add(scopeStart, Vector3Scale(camFwd, 0.03f));
+      |             ^~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1013:13: note:   crosses initialization of 'Vector3 lensBack'
+ 1013 |     Vector3 lensBack = Vector3Add(scopeStart, Vector3Scale(camFwd, -0.01f));
+      |             ^~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1011:13: note:   crosses initialization of 'Vector3 eyeStart'
+ 1011 |     Vector3 eyeStart = Vector3Add(scopeStart, Vector3Scale(camFwd, -0.02f));
+      |             ^~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1008:13: note:   crosses initialization of 'Vector3 lensFront'
+ 1008 |     Vector3 lensFront = Vector3Add(scopeEnd, Vector3Scale(camFwd, 0.01f));
+      |             ^~~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1005:13: note:   crosses initialization of 'Vector3 bellEnd'
+ 1005 |     Vector3 bellEnd = Vector3Add(scopeEnd, Vector3Scale(camFwd, 0.02f));
+      |             ^~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1002:13: note:   crosses initialization of 'Vector3 scopeEnd'
+ 1002 |     Vector3 scopeEnd = Vector3Add(scopeStart, Vector3Scale(camFwd, 0.16f));
+      |             ^~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1000:13: note:   crosses initialization of 'Vector3 scopeStart'
+ 1000 |     Vector3 scopeStart = Vector3Add(receiverPos, Vector3Scale(camUp, 0.045f));
+      |             ^~~~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:996:13: note:   crosses initialization of 'Vector3 stockEnd'
+  996 |     Vector3 stockEnd = Vector3Add(weaponPos, Vector3Scale(camFwd, -0.38f));
+      |             ^~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:995:13: note:   crosses initialization of 'Vector3 stockStart'
+  995 |     Vector3 stockStart = Vector3Add(weaponPos, Vector3Scale(camFwd, -0.22f));
+      |             ^~~~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:992:13: note:   crosses initialization of 'Vector3 magPos'
+  992 |     Vector3 magPos = Vector3Add(lowerPos, Vector3Scale(camUp, -0.045f));
+      |             ^~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:989:13: note:   crosses initialization of 'Vector3 lowerPos'
+  989 |     Vector3 lowerPos = Vector3Add(receiverPos, Vector3Scale(camUp, -0.042f));
+      |             ^~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:985:13: note:   crosses initialization of 'Vector3 receiverPos'
+  985 |     Vector3 receiverPos = Vector3Add(weaponPos, Vector3Scale(camFwd, -0.08f));
+      |             ^~~~~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:976:13: note:   crosses initialization of 'Vector3 brakeEnd2'
+  976 |     Vector3 brakeEnd2 = Vector3Add(brakeStart, Vector3Scale(camFwd, 0.05f));
+      |             ^~~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:975:13: note:   crosses initialization of 'Vector3 brakeStart'
+  975 |     Vector3 brakeStart = barrelEnd;
+      |             ^~~~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:972:13: note:   crosses initialization of 'Vector3 barrelEnd'
+  972 |     Vector3 barrelEnd = Vector3Add(weaponPos, Vector3Scale(camFwd, 0.4f));
+      |             ^~~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:969:11: note:   crosses initialization of 'Color scope'
+  969 |     Color scope = {25, 25, 30, 255};
+      |           ^~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:968:11: note:   crosses initialization of 'Color metal'
+  968 |     Color metal = {50, 50, 55, 255};
+      |           ^~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:967:11: note:   crosses initialization of 'Color darkGreen'
+  967 |     Color darkGreen = {35, 40, 35, 255};
+      |           ^~~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1087:8: error: jump to case label
+ 1087 |   case 6: { // AXE
+      |        ^
+C:\Users\hp\Downloads\GG\src\main.cpp:1027:13: note:   crosses initialization of 'Vector3 bipodR'
+ 1027 |     Vector3 bipodR = Vector3Add(bipodBase, Vector3Scale(camRight, 0.05f));
+      |             ^~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1025:13: note:   crosses initialization of 'Vector3 bipodL'
+ 1025 |     Vector3 bipodL = Vector3Add(bipodBase, Vector3Scale(camRight, -0.05f));
+      |             ^~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1023:13: note:   crosses initialization of 'Vector3 bipodBase'
+ 1023 |     Vector3 bipodBase = Vector3Add(weaponPos, Vector3Scale(camFwd, 0.15f));
+      |             ^~~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1019:13: note:   crosses initialization of 'Vector3 ring2'
+ 1019 |     Vector3 ring2 = Vector3Add(scopeStart, Vector3Scale(camFwd, 0.11f));
+      |             ^~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1016:13: note:   crosses initialization of 'Vector3 ring1'
+ 1016 |     Vector3 ring1 = Vector3Add(scopeStart, Vector3Scale(camFwd, 0.03f));
+      |             ^~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1013:13: note:   crosses initialization of 'Vector3 lensBack'
+ 1013 |     Vector3 lensBack = Vector3Add(scopeStart, Vector3Scale(camFwd, -0.01f));
+      |             ^~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1011:13: note:   crosses initialization of 'Vector3 eyeStart'
+ 1011 |     Vector3 eyeStart = Vector3Add(scopeStart, Vector3Scale(camFwd, -0.02f));
+      |             ^~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1008:13: note:   crosses initialization of 'Vector3 lensFront'
+ 1008 |     Vector3 lensFront = Vector3Add(scopeEnd, Vector3Scale(camFwd, 0.01f));
+      |             ^~~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1005:13: note:   crosses initialization of 'Vector3 bellEnd'
+ 1005 |     Vector3 bellEnd = Vector3Add(scopeEnd, Vector3Scale(camFwd, 0.02f));
+      |             ^~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1002:13: note:   crosses initialization of 'Vector3 scopeEnd'
+ 1002 |     Vector3 scopeEnd = Vector3Add(scopeStart, Vector3Scale(camFwd, 0.16f));
+      |             ^~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1000:13: note:   crosses initialization of 'Vector3 scopeStart'
+ 1000 |     Vector3 scopeStart = Vector3Add(receiverPos, Vector3Scale(camUp, 0.045f));
+      |             ^~~~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:996:13: note:   crosses initialization of 'Vector3 stockEnd'
+  996 |     Vector3 stockEnd = Vector3Add(weaponPos, Vector3Scale(camFwd, -0.38f));
+      |             ^~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:995:13: note:   crosses initialization of 'Vector3 stockStart'
+  995 |     Vector3 stockStart = Vector3Add(weaponPos, Vector3Scale(camFwd, -0.22f));
+      |             ^~~~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:992:13: note:   crosses initialization of 'Vector3 magPos'
+  992 |     Vector3 magPos = Vector3Add(lowerPos, Vector3Scale(camUp, -0.045f));
+      |             ^~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:989:13: note:   crosses initialization of 'Vector3 lowerPos'
+  989 |     Vector3 lowerPos = Vector3Add(receiverPos, Vector3Scale(camUp, -0.042f));
+      |             ^~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:985:13: note:   crosses initialization of 'Vector3 receiverPos'
+  985 |     Vector3 receiverPos = Vector3Add(weaponPos, Vector3Scale(camFwd, -0.08f));
+      |             ^~~~~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:976:13: note:   crosses initialization of 'Vector3 brakeEnd2'
+  976 |     Vector3 brakeEnd2 = Vector3Add(brakeStart, Vector3Scale(camFwd, 0.05f));
+      |             ^~~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:975:13: note:   crosses initialization of 'Vector3 brakeStart'
+  975 |     Vector3 brakeStart = barrelEnd;
+      |             ^~~~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:972:13: note:   crosses initialization of 'Vector3 barrelEnd'
+  972 |     Vector3 barrelEnd = Vector3Add(weaponPos, Vector3Scale(camFwd, 0.4f));
+      |             ^~~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:969:11: note:   crosses initialization of 'Color scope'
+  969 |     Color scope = {25, 25, 30, 255};
+      |           ^~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:968:11: note:   crosses initialization of 'Color metal'
+  968 |     Color metal = {50, 50, 55, 255};
+      |           ^~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:967:11: note:   crosses initialization of 'Color darkGreen'
+  967 |     Color darkGreen = {35, 40, 35, 255};
+      |           ^~~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1111:8: error: jump to case label
+ 1111 |   case 7: { // PISTOL
+      |        ^
+C:\Users\hp\Downloads\GG\src\main.cpp:1027:13: note:   crosses initialization of 'Vector3 bipodR'
+ 1027 |     Vector3 bipodR = Vector3Add(bipodBase, Vector3Scale(camRight, 0.05f));
+      |             ^~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1025:13: note:   crosses initialization of 'Vector3 bipodL'
+ 1025 |     Vector3 bipodL = Vector3Add(bipodBase, Vector3Scale(camRight, -0.05f));
+      |             ^~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1023:13: note:   crosses initialization of 'Vector3 bipodBase'
+ 1023 |     Vector3 bipodBase = Vector3Add(weaponPos, Vector3Scale(camFwd, 0.15f));
+      |             ^~~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1019:13: note:   crosses initialization of 'Vector3 ring2'
+ 1019 |     Vector3 ring2 = Vector3Add(scopeStart, Vector3Scale(camFwd, 0.11f));
+      |             ^~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1016:13: note:   crosses initialization of 'Vector3 ring1'
+ 1016 |     Vector3 ring1 = Vector3Add(scopeStart, Vector3Scale(camFwd, 0.03f));
+      |             ^~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1013:13: note:   crosses initialization of 'Vector3 lensBack'
+ 1013 |     Vector3 lensBack = Vector3Add(scopeStart, Vector3Scale(camFwd, -0.01f));
+      |             ^~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1011:13: note:   crosses initialization of 'Vector3 eyeStart'
+ 1011 |     Vector3 eyeStart = Vector3Add(scopeStart, Vector3Scale(camFwd, -0.02f));
+      |             ^~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1008:13: note:   crosses initialization of 'Vector3 lensFront'
+ 1008 |     Vector3 lensFront = Vector3Add(scopeEnd, Vector3Scale(camFwd, 0.01f));
+      |             ^~~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1005:13: note:   crosses initialization of 'Vector3 bellEnd'
+ 1005 |     Vector3 bellEnd = Vector3Add(scopeEnd, Vector3Scale(camFwd, 0.02f));
+      |             ^~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1002:13: note:   crosses initialization of 'Vector3 scopeEnd'
+ 1002 |     Vector3 scopeEnd = Vector3Add(scopeStart, Vector3Scale(camFwd, 0.16f));
+      |             ^~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1000:13: note:   crosses initialization of 'Vector3 scopeStart'
+ 1000 |     Vector3 scopeStart = Vector3Add(receiverPos, Vector3Scale(camUp, 0.045f));
+      |             ^~~~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:996:13: note:   crosses initialization of 'Vector3 stockEnd'
+  996 |     Vector3 stockEnd = Vector3Add(weaponPos, Vector3Scale(camFwd, -0.38f));
+      |             ^~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:995:13: note:   crosses initialization of 'Vector3 stockStart'
+  995 |     Vector3 stockStart = Vector3Add(weaponPos, Vector3Scale(camFwd, -0.22f));
+      |             ^~~~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:992:13: note:   crosses initialization of 'Vector3 magPos'
+  992 |     Vector3 magPos = Vector3Add(lowerPos, Vector3Scale(camUp, -0.045f));
+      |             ^~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:989:13: note:   crosses initialization of 'Vector3 lowerPos'
+  989 |     Vector3 lowerPos = Vector3Add(receiverPos, Vector3Scale(camUp, -0.042f));
+      |             ^~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:985:13: note:   crosses initialization of 'Vector3 receiverPos'
+  985 |     Vector3 receiverPos = Vector3Add(weaponPos, Vector3Scale(camFwd, -0.08f));
+      |             ^~~~~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:976:13: note:   crosses initialization of 'Vector3 brakeEnd2'
+  976 |     Vector3 brakeEnd2 = Vector3Add(brakeStart, Vector3Scale(camFwd, 0.05f));
+      |             ^~~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:975:13: note:   crosses initialization of 'Vector3 brakeStart'
+  975 |     Vector3 brakeStart = barrelEnd;
+      |             ^~~~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:972:13: note:   crosses initialization of 'Vector3 barrelEnd'
+  972 |     Vector3 barrelEnd = Vector3Add(weaponPos, Vector3Scale(camFwd, 0.4f));
+      |             ^~~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:969:11: note:   crosses initialization of 'Color scope'
+  969 |     Color scope = {25, 25, 30, 255};
+      |           ^~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:968:11: note:   crosses initialization of 'Color metal'
+  968 |     Color metal = {50, 50, 55, 255};
+      |           ^~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:967:11: note:   crosses initialization of 'Color darkGreen'
+  967 |     Color darkGreen = {35, 40, 35, 255};
+      |           ^~~~~~~~~
+C:\Users\hp\Downloads\GG\src\main.cpp:1128:26: error: a function-definition is not allowed here before '{' token
+ 1128 |   static void GameDraw() {
+      |                          ^
+C:\Users\hp\Downloads\GG\src\main.cpp:1322:18: error: a function-definition is not allowed here before '{' token
+ 1322 |   int main(void) {
+      |                  ^
+C:\Users\hp\Downloads\GG\src\main.cpp:1353:4: error: expected '}' at end of input
+ 1353 |   }
+      |    ^
+C:\Users\hp\Downloads\GG\src\main.cpp:851:52: note: to match this '{'
+  851 | static void DrawDetailedWeapon(const GameState &g) {
+      |                                                    ^

@@ -1,0 +1,39 @@
+Change Dir: 'C:/Users/hp/Downloads/GG/build'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile
+C:\msys64\mingw64\bin\cmake.exe -SC:\Users\hp\Downloads\GG -BC:\Users\hp\Downloads\GG\build --check-build-system CMakeFiles\Makefile.cmake 0
+C:\msys64\mingw64\bin\cmake.exe -E cmake_progress_start C:\Users\hp\Downloads\GG\build\CMakeFiles C:\Users\hp\Downloads\GG\build\\CMakeFiles\progress.marks
+C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\Makefile2 all
+mingw32-make[1]: Entering directory 'C:/Users/hp/Downloads/GG/build'
+C:/msys64/mingw64/bin/mingw32-make.exe  -f _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\build.make _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/depend
+mingw32-make[2]: Entering directory 'C:/Users/hp/Downloads/GG/build'
+C:\msys64\mingw64\bin\cmake.exe -E cmake_depends "MinGW Makefiles" C:\Users\hp\Downloads\GG C:\Users\hp\Downloads\GG\build\_deps\raylib-src\src\external\glfw\src C:\Users\hp\Downloads\GG\build C:\Users\hp\Downloads\GG\build\_deps\raylib-build\raylib\external\glfw\src C:\Users\hp\Downloads\GG\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\DependInfo.cmake "--color=" glfw
+mingw32-make[2]: Leaving directory 'C:/Users/hp/Downloads/GG/build'
+C:/msys64/mingw64/bin/mingw32-make.exe  -f _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\build.make _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/build
+mingw32-make[2]: Entering directory 'C:/Users/hp/Downloads/GG/build'
+mingw32-make[2]: Nothing to be done for '_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/build'.
+mingw32-make[2]: Leaving directory 'C:/Users/hp/Downloads/GG/build'
+[ 50%] Built target glfw
+C:/msys64/mingw64/bin/mingw32-make.exe  -f _deps\raylib-build\raylib\CMakeFiles\raylib.dir\build.make _deps/raylib-build/raylib/CMakeFiles/raylib.dir/depend
+mingw32-make[2]: Entering directory 'C:/Users/hp/Downloads/GG/build'
+C:\msys64\mingw64\bin\cmake.exe -E cmake_depends "MinGW Makefiles" C:\Users\hp\Downloads\GG C:\Users\hp\Downloads\GG\build\_deps\raylib-src\src C:\Users\hp\Downloads\GG\build C:\Users\hp\Downloads\GG\build\_deps\raylib-build\raylib C:\Users\hp\Downloads\GG\build\_deps\raylib-build\raylib\CMakeFiles\raylib.dir\DependInfo.cmake "--color=" raylib
+mingw32-make[2]: Leaving directory 'C:/Users/hp/Downloads/GG/build'
+C:/msys64/mingw64/bin/mingw32-make.exe  -f _deps\raylib-build\raylib\CMakeFiles\raylib.dir\build.make _deps/raylib-build/raylib/CMakeFiles/raylib.dir/build
+mingw32-make[2]: Entering directory 'C:/Users/hp/Downloads/GG/build'
+mingw32-make[2]: Nothing to be done for '_deps/raylib-build/raylib/CMakeFiles/raylib.dir/build'.
+mingw32-make[2]: Leaving directory 'C:/Users/hp/Downloads/GG/build'
+[ 68%] Built target raylib
+C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\COD_FPS.dir\build.make CMakeFiles/COD_FPS.dir/depend
+mingw32-make[2]: Entering directory 'C:/Users/hp/Downloads/GG/build'
+C:\msys64\mingw64\bin\cmake.exe -E cmake_depends "MinGW Makefiles" C:\Users\hp\Downloads\GG C:\Users\hp\Downloads\GG C:\Users\hp\Downloads\GG\build C:\Users\hp\Downloads\GG\build C:\Users\hp\Downloads\GG\build\CMakeFiles\COD_FPS.dir\DependInfo.cmake "--color=" COD_FPS
+mingw32-make[2]: Leaving directory 'C:/Users/hp/Downloads/GG/build'
+C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\COD_FPS.dir\build.make CMakeFiles/COD_FPS.dir/build
+mingw32-make[2]: Entering directory 'C:/Users/hp/Downloads/GG/build'
+[ 70%] Building CXX object CMakeFiles/COD_FPS.dir/src/main.cpp.obj
+C:\msys64\mingw64\bin\c++.exe -DGRAPHICS_API_OPENGL_33 -DHAS_PYTHON=0 -DPLATFORM_DESKTOP @CMakeFiles/COD_FPS.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -MD -MT CMakeFiles/COD_FPS.dir/src/main.cpp.obj -MF CMakeFiles\COD_FPS.dir\src\main.cpp.obj.d -o CMakeFiles\COD_FPS.dir\src\main.cpp.obj -c C:\Users\hp\Downloads\GG\src\main.cpp
+mingw32-make[2]: *** [CMakeFiles\COD_FPS.dir\build.make:79: CMakeFiles/COD_FPS.dir/src/main.cpp.obj] Error 1
+mingw32-make[2]: Leaving directory 'C:/Users/hp/Downloads/GG/build'
+mingw32-make[1]: *** [CMakeFiles\Makefile2:171: CMakeFiles/COD_FPS.dir/all] Error 2
+mingw32-make[1]: Leaving directory 'C:/Users/hp/Downloads/GG/build'
+mingw32-make: *** [Makefile:155: all] Error 2
+
